@@ -1,0 +1,49 @@
+
+
+1. To set the configuration locally 
+
+git config --global your.name "Salim Khan"
+git config --global your.email "salim7452@gmail.com"
+
+now verify your config
+git --global --list
+
+2. To initialize a local folder:
+git init
+
+3. To add something first create then
+
+git add "file name"
+
+check with:
+
+git status
+
+4. To commit locally
+git commit -m "your message"
+
+5. To create a new branch
+
+git branch "branch name"
+
+6. To checkout to other branch
+git checkout "branch name"
+
+7. To check the branch details/ from where the branch created from
+git log --graph --decorate
+
+
+
+##############Now Git Remotely#####################
+
+1.
+cd /home/sarah/story-blog; git remote add origin http://git.example.com/sarah/story-blog.git
+
+2.
+Simply run "git push origin master" to push and input login credentials
+
+##############GIT Clone###########
+cd /home/max; git clone http://git.example.com/sarah/story-blog.git
+
+3. To Push your work
+git push origin master 
